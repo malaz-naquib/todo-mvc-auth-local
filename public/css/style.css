@@ -1,10 +1,30 @@
-h1{
-    color: red;
+/******************************************
+/* CSS
+/*******************************************/
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
 }
-.completed{
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+    background-image: url("../images/skyrim_background.jpg");
+}
+.title {
+    display: flex;
+    justify-content: center;
+    color: #648FAD;
+}
+.completed {
     text-decoration: line-through;
     color: gray;
 }
-.not{
+.not {
     text-decoration: underline;
+}
+.logsign {
+    display: flex;
+    justify-content: center;
 }
